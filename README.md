@@ -1,5 +1,5 @@
-# cryptotech
-android/java library which acts as a crypto system using an original algorithm - Inspired by RSA Encryption
+# CryptoTech
+Android/Java library which acts as a crypto system using an original algorithm - Inspired by RSA Encryption Algorithm
 
 Welcome,
 Thank you for trying out the CryptoTech CryptoSystem!
