@@ -43,3 +43,15 @@ Below is the java code that is used to utilise the library.
 
         ...
 
+
+Download - 
+You can either use the code found in the 'src' directory or you can download the entire library
+project in a zip file and then unzip it, and add it to your Android app project.
+
+http://onetimedev.com/cryptotech/cryptotech-library.zip
+
+
+Implmentation Instructions - 
+Once downloaded, unzip it and remeber where you have stored the unzipped library
+and go to Android Studio > [Your Project] > File > New > Import Module 
+then find where you stored the library and click Import.
