@@ -25,9 +25,8 @@ Explanation:
 in this case the numerical value for [b] is 3.
 
 
-        Implementation -
-
-        Below is the java code that is used to utilise the library.
+Implementation -
+Below is the java code that is used to utilise the library.
 
         import com.onetimedev.cryptotech.CryptoTech;
 
