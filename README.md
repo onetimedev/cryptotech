@@ -38,8 +38,12 @@ Below is the java code that is used to utilise the library.
         cryptoTech.SetZKey(10);
         cryptoTech.SetE(2);
         cryptoTech.CreateKeys();
-
+        
+        //encrypt
         int h = cryptoTech.Encrypt("h");
+        
+        //decrypt
+        String h = cryptoTech.Decrypt(h);
 
         ...
 
