@@ -54,4 +54,7 @@ http://onetimedev.com/cryptotech/cryptotech-library.zip
 Implementation Instructions - 
 Once downloaded, unzip it and remeber where you have stored the unzipped library
 and go to Android Studio > [Your Project] > File > New > Import Module 
-then find where you stored the library and click Import.
+then find where you stored the library and click Finish.
+
+Then go to your app > build.gradle (Module app) and below 'testCompile(..)' add the following,
+'compile project(':cryptotech')' then sync the gradle to integrate the lib.
