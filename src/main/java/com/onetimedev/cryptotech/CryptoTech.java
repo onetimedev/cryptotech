@@ -57,7 +57,6 @@ public class CryptoTech {
 
     public CryptoTech(){} //initializer (unused)
 
-
     //provides a numerical value for any given letter of the English alphabet
     private int GetNumerical(String letter){
         int Numerical = 0;
@@ -146,6 +145,7 @@ public class CryptoTech {
         return Numerical;
 
     }
+    
     //provides an alphabetical value for any given numerical value
     private String GetAlpha(int letter){
         String Numerical = "";
@@ -235,8 +235,6 @@ public class CryptoTech {
 
     }
 
-
-
     //Sets the values to their given variables
     public void SetVKey(int Val){
         v = Val;
@@ -283,9 +281,10 @@ public class CryptoTech {
         double nL = GetNumerical(l);
         double a = GetPhi()/nL;
         double b = (int) (Math.pow(GetN(),GetE()));
-        double DecryptedDecimal = a*b;
-        return (int) DecryptedDecimal;
+        double EncryptedDecimal = a*b;
+        return (int) EncryptedDecimal;
     }
+    
     //Uses the decryption algorithm
     public String Decrypt(double c) {
         double a = (Math.pow(GetN(), GetE()));
@@ -300,8 +299,6 @@ public class CryptoTech {
 
         return GetAlpha(DecryptedInteger);
     }
-
-
 
     //Encrypts a word using a '-' as a word constructor
     public String EncryptWord(String word){
